@@ -1,10 +1,8 @@
 # Return the 'nth' Fibonacci sequence
 def nth_fibonacci(n)
-  if n < 2
-    n
-  else
-    nth_fibonacci(n-1) + nth_fibonacci(n-2)
-  end
+  return n if n <= 1
+
+  nth_fibonacci(n-1) + nth_fibonacci(n-2)
 end
 
 # --- Return array containing that many numbers from the Fibonacci sequence
@@ -21,10 +19,8 @@ end
 def fibs_rec(n, sequence = [0,1])
   sequence << sequence[-2] + sequence[-1]
 
-  if n <= 2
+  if n <= sequence.size
     return sequence[0...n]
-  elsif sequence.size == n
-    return sequence
   else
     fibs_rec(n, sequence)
   end
