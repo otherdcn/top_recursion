@@ -1,5 +1,6 @@
-# Recursion
+# Project: Recursion
 Following the [TOP (The Odin Project)](https://www.theodinproject.com/lessons/ruby-recursion) course and developing some basic projects to practice my [Recursion](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm).
+> Use what you have learnt about recursion so far to tackle two classic problems that can leverage recursion: Fibonacci and Merge Sort.
 
 ## Table of Contents
 - [Installation](#installation)
